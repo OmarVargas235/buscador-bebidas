@@ -1,13 +1,32 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	background-color: #E2E0E2;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-color {
+	background-color: #DA1F42;
+}
+
+.btn-danger, .btn-danger:focus, .btn-danger:hover, .btn-danger:not(:disabled):not(.disabled):active {
+	background-color: #DE505C;
+	border-color: #AE2A35;
+	box-shadow: none; 
+	font-size: 1rem;
+}
+
+.form-group, .col-md-4 {
+	height: 56px !important;
+}
+
+.ingrediente {
+	height: 67.9% !important;
+}
+
+.select {
+	height: 67.9% !important;
+}
+
+.btn-color-receta {
+	background-color: #DE505C;
+	font-size: 1rem;
+	box-shadow: none !important;
 }
