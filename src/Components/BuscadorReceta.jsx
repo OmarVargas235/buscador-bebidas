@@ -66,7 +66,7 @@ const BuscadorReceta = () => {
 					<div className="form-group col-md-4">
 						<input 
 							type="text"
-							placeholder="Buscar por ingrediente"
+							placeholder="Buscar por ingrediente, ejem: tequila"
 							className="form-control ingrediente"
 							onChange={e => guardarIngrediente(e.target.value)}
 						/>
